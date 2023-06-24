@@ -1,0 +1,34 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1687635420966,
+      "tag": "0000_complex_steel_serpent",
+      "breakpoints": false
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1687639363057,
+      "tag": "0001_pink_doctor_faustus",
+      "breakpoints": false
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1687639443083,
+      "tag": "0002_nasty_lenny_balinger",
+      "breakpoints": false
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1687640442056,
+      "tag": "0003_calm_jane_foster",
+      "breakpoints": false
+    }
+  ]
+}

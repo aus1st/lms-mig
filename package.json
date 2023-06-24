@@ -1,0 +1,27 @@
+{
+  "name": "lms-mig",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "drizzle-kit generate:pg --out drizzle --schema src/db/schema/*",
+    "migrate": "ts-node index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/postgres": "^0.4.0",
+    "dotenv": "^16.3.1",
+    "drizzle-kit": "^0.18.1",
+    "drizzle-orm": "^0.26.5",
+    "pg": "^8.11.0",
+    "postgres": "^3.3.5",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.1"
+  }
+}
